@@ -1,23 +1,38 @@
 @font-face {
-    font-family: 'ps-kinlock';
-    src: url('../fonts/ps-kinlock-regular-webfont.woff2') format('woff2'),
-         url('../fonts/ps-kinlock-regular-webfont.woff') format('woff');
+    font-family: 'mahelisa';
+    src: url('../fonts/mahelisa-webfont.woff2') format('woff2'),
+         url('../fonts/mahelisa-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 
-body { font-size: 1em; font-weight: 300; font-family: 'Barlow', sans-serif; line-height: 1.6em; padding: 0; margin: 0; background: #16303A;}
-h1, h2, h3 { font-family: 'ps-kinlock', serif; font-weight: 300; line-height: 1.2em; margin-top: 0; }
-h1 { font-size: 2.5em; color: #E9B857; }
-h2 { font-size: 2em; color: #E9B857; }
-h3 { font-size: 1.4em; color: #83D1DE; }
+body { font-size: 1em; font-weight: 300; font-family: 'Roboto', sans-serif; line-height: 1.6em; padding: 0; margin: 0; background: #16303A;}
+h1, h2, h3 { font-family: 'mahelisa', cursive; font-weight: 300; line-height: 1.2em; margin-top: 0; }
+h1 { font-size: 3.5em; color: #fab533; }
+h2 { font-size: 2.5em; color: #fab533; }
+h3 { font-size: 2em; color: #fab533; }
 p { font-size: 1em; color: #fff; }
-a { text-decoration: none; color: #E9B857; }
+a { text-decoration: none; color: #fab533; }
 a:focus, button:focus { outline: 3px solid black; }
-.superscript { font-size: 1.4em; margin: 0; font-weight: 300; }
+.superscript {  }
 .sub { font-size: 1.2em; line-height: 1.6em; }
-.branding { width: 240px; height: 240px; display: block; margin: auto; }
+.highlight { color: #fab533; }
+.branding { 
+	width: 240px;
+	height: 240px;
+	display: block;
+	margin: 2.5% auto;
+	border-radius: 150px;
+	border: 2px solid #fff;
+	box-shadow:
+		0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+		0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+		0 12.5px 10px rgba(0, 0, 0, 0.06),
+		0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+		0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+		0 100px 80px rgba(0, 0, 0, 0.12);
+}
 .branding-menu { width: 300px; height: 300px; margin: auto; display: block; }
 header { 
 	height: 85vh;
@@ -32,7 +47,7 @@ header {
 	text-align: center;
 	color: #fff;
 }
-.index-cover { background: url('../images/marwinthai-index-cover.jpg') center no-repeat #27273f; background-size: cover; height: 100vh; }
+.index-cover { background: url('../images/marwinthai-index-cover.png') center no-repeat #27273f; background-size: cover; height: 100vh; }
 .menu-cover { background: url('../images/marwinthai-menu-cover.jpg') center no-repeat #27273f; background-size: cover; }
 .drinks-cover { background: url('../images/marwinthai-drinks-cover.jpg') center no-repeat #27273f; background-size: cover;  }
 #nav-menu { 
@@ -278,7 +293,7 @@ ul.tabs button:focus { outline: none; border-bottom: 3px solid #83D1DE; }
 
 .preview { width: 100%; max-width: 270px; max-height: 270px; }
 .price { color: #fff; font-weight: 700; }
-.tags { display: inline-block; margin-right: 5px; font-family: 'Barlow', sans-serif; font-size: 0.75em; vertical-align: top; }
+.tags { display: inline-block; margin-right: 5px; font-family: 'Roboto', sans-serif; font-size: 0.75em; vertical-align: top; }
 .spicy { color: #ff8993; }
 .vegetarian { color: #33c825; }
 .vegan { color: #25c88c; }
@@ -293,7 +308,7 @@ ul.primary, ul.primary li { padding: 0; }
 ul.primary li a { color: #272d2d;  text-align: center;}
 ul.secondary { text-align: center; padding: 0; }
 ul.secondary li { display: inline-block; padding: 1%; }
-ul.secondary li a { text-decoration: underline; color: #83D1DE;}
+ul.secondary li a { text-decoration: underline; color: #fab533;}
 li a { width: 100%; display: inline-block; }
 
 i.fas { /*margin: 0 6.5px;*/ vertical-align: middle; }
@@ -344,7 +359,7 @@ ul.footer-links li { display: inline-block; padding: 0 1em; }
 	.tooltip:hover:before, .tooltip:hover:after { display: none; }
 	i.fa-home:after, i.fa-utensils:after, i.fa-mobile-alt:after, i.fa-wine-glass-alt:after, i.fa-shopping-bag:after {     
 		font-size: 0.5em;
-	    font-family: 'Barlow', sans-serif;
+	    font-family: 'Roboto', sans-serif;
 	    font-weight: 300;
 	    text-align: center;
 	    line-height: 1.6em;
