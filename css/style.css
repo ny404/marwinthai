@@ -32,9 +32,9 @@ header {
 	text-align: center;
 	color: #fff;
 }
-.index-cover { background: url('../images/rimnamthai-index-cover.jpg') bottom center no-repeat #16303A; background-size: cover; height: 100vh; }
-.menu-cover { background: url('../images/rimnamthai-menu-cover.jpg') center no-repeat #16303A; background-size: cover; }
-.drinks-cover { background: url('../images/rimnamthai-drinks-cover.jpg') center no-repeat #16303A; background-size: cover;  }
+.index-cover { background: url('../images/marwinthai-index-cover.jpg') center no-repeat #27273f; background-size: cover; height: 100vh; }
+.menu-cover { background: url('../images/marwinthai-menu-cover.jpg') center no-repeat #27273f; background-size: cover; }
+.drinks-cover { background: url('../images/marwinthai-drinks-cover.jpg') center no-repeat #27273f; background-size: cover;  }
 #nav-menu { 
 	background: #F0EDED;
 	font-size: 1.2em;
@@ -126,7 +126,7 @@ header {
 
 main { background: #222; }
 footer { 
-	background: #16303A;
+	background: #090924;
 	color: #fff;
 	padding: 2.5% 5%;
 	display: flex;
