@@ -150,6 +150,24 @@ header {
   transform: translate(0, 0);
 }
 
+.roll-in {
+    animation: roll 1.5s cubic-bezier(0.25, 1, 0.5, 1) 1;
+}
+
+@keyframes roll {
+    0% {
+        -webkit-transform: translateX(-800px) rotate(-540deg);
+        transform: translateX(800px) rotate(540deg);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateX(0) rotate(0deg);
+        transform: translateX(0) rotate(0deg);
+        opacity: 1;
+    }
+}
+
 main { background: #1b1b2b; }
 footer { 
 	background: #090924;
