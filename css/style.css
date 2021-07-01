@@ -291,6 +291,11 @@ ul.display {
 }
 ul.display::-webkit-scrollbar { 
 	display: block;
+	height: 5px;
+	background: #090924;
+}
+ul.display::-webkit-scrollbar-thumb {
+	background: #fab533;
 }
 ul.display li:focus { outline: none; }
 ul.tabs li {
