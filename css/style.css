@@ -289,6 +289,9 @@ ul.display {
 	scrollbar-width: thin;
 	scrollbar-color: #fab533 #090924;
 }
+ul.display::-webkit-scrollbar { 
+	display: block;
+}
 ul.display li:focus { outline: none; }
 ul.tabs li {
 	flex: 0 0 auto;
