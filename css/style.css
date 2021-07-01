@@ -284,6 +284,12 @@ ul.tabs {
 ul.tabs::-webkit-scrollbar { 
 	display: none;
 }
+ul.display {
+	text-align: center;
+	scrollbar-width: thin;
+	scrollbar-color: #fab533 #090924;
+}
+ul.display li:focus { outline: none; }
 ul.tabs li {
 	flex: 0 0 auto;
 	display: inline-block;
