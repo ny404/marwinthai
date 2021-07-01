@@ -291,7 +291,7 @@ ul.display {
 }
 ul.display::-webkit-scrollbar { 
 	display: block;
-	height: 5px;
+	height: 7.5px;
 	background: #090924;
 }
 ul.display::-webkit-scrollbar-thumb {
