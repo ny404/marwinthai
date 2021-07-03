@@ -351,8 +351,8 @@ ul { list-style: none; padding: 10%; margin: 0; }
 li { line-height: 1.6em; padding: 5%;}
 ul.primary, ul.primary li { padding: 0; }
 ul.primary li a { color: #272d2d;  text-align: center;}
-ul.secondary { text-align: center; padding: 0; }
-ul.secondary li { display: inline-block; padding: 1%; }
+ul.secondary, ul.social { text-align: center; padding: 0; }
+ul.secondary li, ul.social li { display: inline-block; padding: 1%; }
 ul.secondary li a { text-decoration: underline; color: #fab533;}
 li a { width: 100%; display: inline-block; }
 
