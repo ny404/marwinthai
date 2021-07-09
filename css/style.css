@@ -7,7 +7,7 @@
 
 }
 
-body { font-size: 1em; font-weight: 300; font-family: 'Roboto', sans-serif; line-height: 1.6em; padding: 0; margin: 0; background: #27273f;}
+body { font-size: 1em; font-weight: 300; font-family: 'Roboto', sans-serif; line-height: 1.6em; padding: 0; margin: 0; background: #27273f; }
 h1, h2, h3 { font-family: 'mahelisa', cursive; font-weight: 300; line-height: 1.2em; margin: 0; }
 h1 { font-size: 3.5em; color: #fab533; }
 h2 { font-size: 3em; color: #fab533; }
@@ -250,7 +250,7 @@ nav.scroll-wrapper { padding: 0 5%; background: #090924; }
 
 section h2, p.subheading { width: 100%; }
 p.subheading { color: #E9B857; }
-hr { width: 100%; height: 1px; color: #E9B857; background: #E9B857; border: none; }
+hr { width: 100%; height: 3px; color: #fab533; background: #fab533; border: none; }
 
 .col-1 { width: 8.33333333%; }
 .col-2 { width: 16.66666667%; }
@@ -338,10 +338,11 @@ ul.tabs button:focus { outline: none; border-bottom: 3px solid #fab533; }
 
 .preview { width: 100%; max-width: 270px; max-height: 270px; }
 .price { color: #fff; font-weight: 700; }
-.tags { display: inline-block; margin-right: 5px; font-family: 'Roboto', sans-serif; font-weight: 500; vertical-align: top; }
-.spicy { color: #ff8993; }
+.tags { display: inline-block; margin-right: 5px; font-family: 'Roboto', sans-serif; font-weight: 500; }
+.spicy { color: #ee7674; }
 .vegetarian { color: #33c825; }
 .vegan { color: #25c88c; }
+.gluten { color: #f09149; }
 .content {
 	padding: 5%;
 	width: 90%;
