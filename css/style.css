@@ -48,7 +48,7 @@ header {
 	color: #fff;
 }
 .index-cover { background: url('../images/marwinthai-index-cover.png') center no-repeat #27273f; background-size: cover; height: 100vh; }
-.menu-cover { background: url('../images/marwinthai-menu-cover.jpg') center no-repeat #27273f; background-size: cover; }
+.menu-cover { background: url('../images/marwinthai-index-cover.png') center no-repeat #27273f; background-size: cover; }
 .drinks-cover { background: url('../images/marwinthai-drinks-cover.jpg') center no-repeat #27273f; background-size: cover;  }
 #nav-menu { 
 	background: #F0EDED;
@@ -246,7 +246,7 @@ th, td { padding: 2.5px; }
 .justify-reset h2 { text-align: initial; margin: 0.67em 0; }
 .justify-reset ul { list-style: initial; padding: 0 2.5%; margin: 0; }
 .justify-reset li { padding: 0; margin: 0; color: #fff; }
-nav.scroll-wrapper { padding: 0 5%; background: #15435b; }
+nav.scroll-wrapper { padding: 0 5%; background: #090924; }
 
 section h2, p.subheading { width: 100%; }
 p.subheading { color: #E9B857; }
@@ -297,8 +297,8 @@ ul.tabs li {
 	display: inline-block;
 	padding: 0;
 }
-ul.tabs button { width: auto; padding: 20px; background: none; border-radius: 0; border-top: 3px solid transparent; border-bottom: 3px solid transparent; color: #fff;}
-ul.tabs button:focus { outline: none; border-bottom: 3px solid #83D1DE; }
+ul.tabs button { width: auto; padding: 20px; background: none; border-radius: 0; border-top: 3px solid transparent; border-bottom: 3px solid transparent; color: #fff; font-weight: inherit; }
+ul.tabs button:focus { outline: none; border-bottom: 3px solid #fab533; }
 
 [role="tabpanel"] {
 	outline: none;
@@ -338,7 +338,7 @@ ul.tabs button:focus { outline: none; border-bottom: 3px solid #83D1DE; }
 
 .preview { width: 100%; max-width: 270px; max-height: 270px; }
 .price { color: #fff; font-weight: 700; }
-.tags { display: inline-block; margin-right: 5px; font-family: 'Roboto', sans-serif; font-size: 0.75em; vertical-align: top; }
+.tags { display: inline-block; margin-right: 5px; font-family: 'Roboto', sans-serif; font-weight: 500; vertical-align: top; }
 .spicy { color: #ff8993; }
 .vegetarian { color: #33c825; }
 .vegan { color: #25c88c; }
