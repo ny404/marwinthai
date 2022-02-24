@@ -62,6 +62,7 @@
             <li role="presentation"><button role="tab" aria-selected="true" aria-controls="lunch-tab" id="lunch">Lunch Special</button></li>
             <li role="presentation"><button role="tab" aria-selected="true" aria-controls="prix-fixe-tab" id="prix-fixe">Marwin Prix Fixe</button></li>
             <li role="presentation"><button role="tab" aria-selected="true" aria-controls="marwin-combo-tab" id="marwin-combo">Marwin Combo</button></li>
+            <li role="presentation"><button role="tab" aria-selected="true" aria-controls="marwin-signatures-tab" id="marwin-signatures">Marwin Signatures</button></li>
           </ul>
         </nav>
         <section class="scroll-indicator">
@@ -81,20 +82,6 @@
           </div>
           <div class="food-item col-xs">
             <div class="content no-image">
-              <h3>Margarita Shrimp</h3>
-              <p>Skewered grilled jumbo shrimp, onion, bell pepper, pineapple, and tomato. Served with homemade spicy cream sauce and batter-fried vegetable. <span class="tags gluten">Gluten free</span></p>
-              <p class="price">$12.95</p>
-            </div>
-          </div>
-          <div class="food-item col-xs">
-            <div class="content no-image">
-              <h3>Salad Rolls (4 pcs.)</h3>
-              <p>Fresh strips of imitation crab, carrot, cucumber, and green leaf lettuce rolled with rice paper. Served with a homemade spicy cream sauce.</p>
-              <p class="price">$10.95</p>
-            </div>
-          </div>
-          <div class="food-item col-xs">
-            <div class="content no-image">
               <h3>Roti Massaman</h3>
               <p>Pan seared roti bread. Served with Massaman curry dipping sauce with sweet potato, and onion. Topped with peanuts and fried onion. <span class="tags spicy">Mild spicy</span><span class="tags peanuts">Contains peanuts</span></p>
               <p class="price">$8.95</p>
@@ -102,7 +89,7 @@
           </div>
           <div class="food-item col-xs">
             <div class="content no-image">
-              <h3>Duck Wrap</h3>
+              <h3>Duck Wraps</h3>
               <p>Boneless duck, green leaf lettuce, scallion, carrot, and cucumber wrapped in pan seared roti bread and mixed with our chef’s signature sauce.</p>
               <p class="price">$11.95</p>
             </div>
@@ -123,8 +110,8 @@
           </div>
           <div class="food-item col-xs">
             <div class="content no-image">
-              <h3>Fried Pork Potstickers (4 pcs.)</h3>
-              <p>Marinated ground chicken, onion and ginger stuffed in wheat flour dough. Served with sweet soy sauce.</p>
+              <h3>Fried Potstickers (4 pcs.)</h3>
+              <p>Marinated ground chicken and pork, onion and ginger stuffed in wheat flour dough. Served with sweet soy sauce.</p>
               <p class="price">$8.95</p>
             </div>
           </div>
@@ -139,7 +126,7 @@
             <div class="content no-image">
               <h3>Thai Dumplings (4 pcs.)</h3>
               <p>Steamed seasoned minced chicken, shrimp, mushroom, and scallion wrapped in wonton pastry. Served with sweet soy sauce.</p>
-              <p class="price">$8.95</p>
+              <p class="price">$9.95</p>
             </div>
           </div>
           <div class="food-item col-xs">
@@ -153,14 +140,7 @@
             <div class="content no-image">
               <h3>Chicken Satay (4 pcs.)</h3>
               <p>Grilled chicken skewers marinated with Thai spices and yellow curry powder. Served with peanut sauce and cucumber vinaigrette sauce.</p>
-              <p class="price">$8.95</p>
-            </div>
-          </div>
-          <div class="food-item col-xs">
-            <div class="content no-image">
-              <h3>Beef Lovers</h3>
-              <p>Char-grilled beef sirloin. Served with Spicy Jeaw sauce.</p>
-              <p class="price">$12.95</p>
+              <p class="price">$9.95</p>
             </div>
           </div>
           <div class="food-item col-xs">
@@ -172,22 +152,29 @@
           </div>
           <div class="food-item col-xs">
             <div class="content no-image">
-              <h3>Crispy Chives</h3>
-              <p>Fried chives served with seasoned soy sauce. <span class="tags vegetarian">Vegetarian</span></p>
-              <p class="price">$8.95</p>
-            </div>
-          </div>
-          <div class="food-item col-xs">
-            <div class="content no-image">
               <h3>Edamame</h3>
               <p>Boiled Japanese green beans tossed with sea salt. <span class="tags gluten">Gluten free</span><span class="tags vegetarian">Vegetarian</span></p>
               <p class="price">$6.95</p>
             </div>
           </div>
+          <div class="food-item col-xs">
+            <div class="content no-image">
+              <h3>Fresh Summer Rolls</h3>
+              <p>Fried tofu, vermicelli, cucumber, carrot, green leaf lettuce and basil wrapped in rice paper. Served with Hoisin sauce topped with crushed peanuts.</p>
+              <p class="price">$8.95</p>
+            </div>
+          </div>
+          <div class="food-item col-xs">
+            <div class="content no-image">
+              <h3>Fried Tofu</h3>
+              <p>Batter fried seasoned soft tofu. Sprinkled with sesame seeds. Served with Thai sweet chili sauce and crushed peanuts.</p>
+              <p class="price">$7.95</p>
+            </div>
+          </div>
         </section>
         <section tabindex="0" role="tabpanel" id="soup-tab" aria-labelledby="soup" hidden="">
           <h2>Soup</h2>
-          <p class="subheading"><span class="price">$6.95</span> for Chicken, Tofu, Vegetable<br><span class="price">$8.95</span> for Shrimp</p>
+          <p class="subheading"><span class="price">$6.95 (SM) / $12.95 (LG)</span> for Chicken, Tofu, Vegetable<br><span class="price">$8.95 (SM) / $16.95 (LG)</span> for Shrimp</p>
           <hr>
           <div class="food-item col-xs">
             <div class="content no-image">
@@ -205,41 +192,20 @@
             <div class="content no-image">
               <h3>Wonton Soup</h3>
               <p>Clear chicken broth with marinated chicken wontons and bok choy.</p>
-              <p class="price">$7.95</p>
+              <p class="price">$7.95 (SM) / $12.95 (LG)</p>
             </div>
           </div>
           <div class="food-item col-xs">
             <div class="content no-image">
               <h3>Hearty Bowl</h3>
               <p>Clear chicken broth with mixed vegetables and tofu. Topped with fried garlic.</p>
-              <p class="price">$6.95</p>
+              <p class="price">$6.95 (SM) / $12.95 (LG)</p>
             </div>
           </div>
         </section>
         <section tabindex="0" role="tabpanel" id="salad-tab" aria-labelledby="salad" hidden="">
           <h2>Salad</h2>
           <hr>
-          <div class="food-item col-xs">
-            <div class="content no-image">
-              <h3>Garden Salad</h3>
-              <p>A combination of mixed greens, lettuce, carrot, cucumber, tomato, and fried tofu. Served with your choice of ginger dressing or peanut dressing. <span class="tags vegetarian">Vegetarian</span></p>
-              <p class="price">$10.95</p>
-            </div>
-          </div>
-          <div class="food-item col-xs">
-            <div class="content no-image">
-              <h3>Som Tum Avocado</h3>
-              <p>Diced fresh avocado salad with tomato, peanuts, string beans, corn, and carrot seasoned with our Chef’s savory recipe. <span class="tags gluten">Gluten free</span><span class="tags vegetarian">Vegetarian</span></p>
-              <p class="price">$12.95</p>
-            </div>
-          </div>
-          <div class="food-item col-xs">
-            <div class="content no-image">
-              <h3>Crispy Veggie Salad</h3>
-              <p>Batter-fried raw papaya, Chinese broccoli, and white mushroom mixed with string beans, carrot, tomato, and peanuts. Served with a homemade chili-lime dressing on the side. <span class="tags spicy">Spicy</span></p>
-              <p class="price">$12.95</p>
-            </div>
-          </div>
           <div class="food-item col-xs">
             <div class="content no-image">
               <h3>Yum Duck Mango</h3>
@@ -249,30 +215,23 @@
           </div>
           <div class="food-item col-xs">
             <div class="content no-image">
-              <h3>Larb</h3>
-              <p>A classic North-Eastern spicy salad with a choice of minced chicken, minced pork, or fried tofu mixed with red onion, fresh mint, scallion, cilantro, dry chili flake, and roasted rice powder. <span class="tags gluten">Gluten free</span><span class="tags spicy">Spicy</span></p>
+              <h3>Larb Gai</h3>
+              <p>A classic North-Eastern spicy salad with minced chicken mixed with red onion, fresh mint, scallion, cilantro, dry chili flake, and roasted rice powder. <span class="tags gluten">Gluten free</span><span class="tags spicy">Spicy</span></p>
               <p class="price">$12.95</p>
+            </div>
+          </div>
+          <div class="food-item col-xs">
+            <div class="content no-image">
+              <h3>Crispy Salmon Mango Salad</h3>
+              <p>Crispy fried salmon mixed with raw mango, red onion, scallions, cilantro and fresh mint tossed in fresh chili and lime dressing.</p>
+              <p class="price">$16.95</p>
             </div>
           </div>
           <div class="food-item col-xs">
             <div class="content no-image">
               <h3>Thai Papaya Salad</h3>
               <p>Thai-famous 4 flavors spicy raw papaya salad with carrot, string beans, tomato, and peanuts mixed with fresh chilies, lime juice, fish sauce, and palm sugar. <span class="tags gluten">Gluten free</span><span class="tags spicy">Spicy</span></p>
-              <p class="price">$9.95</p>
-            </div>
-          </div>
-          <div class="food-item col-xs">
-            <div class="content no-image">
-              <h3>Grilled Beef Salad</h3>
-              <p>Slices of char-grilled marinated beef with fresh mint, tomato, onion, cilantro, and cucumber. Mixed with a homemade Thai spicy salad dressing. <span class="tags spicy">Spicy</span></p>
-              <p class="price">$15.95</p>
-            </div>
-          </div>
-          <div class="food-item col-xs">
-            <div class="content no-image">
-              <h3>Spicy Seafood Salad</h3>
-              <p>Mixed seafood salad tossed with spicy pickled garlic juice, fish sauce, palm sugar, lime juice, fresh chilies, tomato, onion, and celery. <span class="tags gluten">Gluten free</span><span class="tags spicy">Spicy</span></p>
-              <p class="price">$18.95</p>
+              <p class="price">$10.95</p>
             </div>
           </div>
         </section>
@@ -283,21 +242,14 @@
             <div class="content no-image">
               <h3>Papaya Pad Thai</h3>
               <p>Stir-fried raw papaya with signature Pad Thai sauce, egg, scallion, and ground peanuts. <span class="tags gluten">Gluten free</span><span class="tags peanuts">Contains peanuts</span></p>
-              <p class="price">$15.95</p>
+              <p class="price">$16.95</p>
             </div>
           </div>
           <div class="food-item col-xs">
             <div class="content no-image">
               <h3>Khao Soy</h3>
               <p>Rich and packed with uncompromising flavor Northern Thai yellow curry sauce with a tender braised chicken drumstick, egg noodles, red onion, scallion, pickled cabbage, and cilantro. Garnished with crispy wontons and fried chillies. <span class="tags spicy">Mild spicy</span></p>
-              <p class="price">$15.95</p>
-            </div>
-          </div>
-          <div class="food-item col-xs">
-            <div class="content no-image">
-              <h3>Golden Seafood</h3>
-              <p>Popular stir-fried seafood dish with yellow curry and sweet chili paste sauce, milk, egg, scallion, onion, bell pepper, and celery. Served with Jasmine rice. <span class="tags spicy">Mild spicy</span></p>
-              <p class="price">$21.95</p>
+              <p class="price">$17.95</p>
             </div>
           </div>
           <div class="food-item col-xs">
@@ -305,13 +257,6 @@
               <h3>Eggplant Basil Tofu</h3>
               <p>Spicy stir-fried eggplant and fried tofu in fresh chili and basil sauce with bell pepper, onion, string beans, and basil. Served with Jasmine rice. <span class="tags spicy">Spicy</span></p>
               <p class="price">$15.95</p>
-            </div>
-          </div>
-          <div class="food-item col-xs">
-            <div class="content no-image">
-              <h3>Wellness Fish</h3>
-              <p>Lightly battered fish fillet stir fried with Chinese celery, bell pepper, and ginger in homemade bean paste and oyster sauce. Served with Jasmine rice.</p>
-              <p class="price">$20.95</p>
             </div>
           </div>
           <div class="food-item col-xs">
@@ -325,14 +270,7 @@
             <div class="content no-image">
               <h3>Minced Chicken Basil</h3>
               <p>Famous Thai street food dish. Stir-fried basil sauce with minced chicken, fresh chilies, bell pepper, and string beans. Served with Jasmine rice with a fried egg. <span class="tags spicy">Spicy</span></p>
-              <p class="price">$16.95</p>
-            </div>
-          </div>
-          <div class="food-item col-xs">
-            <div class="content no-image">
-              <h3>Hot Sea</h3>
-              <p>Stir-fried spicy seafood dish with a punchy combination of Chinese ginger, fresh green peppercorns, basil, string beans, and bell pepper. Served with Jasmine rice. <span class="tags spicy">Spicy</span></p>
-              <p class="price">$21.95</p>
+              <p class="price">$17.95</p>
             </div>
           </div>
           <div class="food-item col-xs">
@@ -340,13 +278,6 @@
               <h3>Larb Belly</h3>
               <p>Crispy pork belly salad with red onion, scallion , cilantro , toasted rice powder, fresh mint, and dry chili flake tossed with a homemade spicy 4 flavor dressing. Served with Jasmine rice. <span class="tags gluten">Gluten free</span><span class="tags spicy">Spicy</span></p>
               <p class="price">$18.95</p>
-            </div>
-          </div>
-          <div class="food-item col-xs">
-            <div class="content no-image">
-              <h3>Beef Rib Hung Lay</h3>
-              <p>Chiang Mai style slowly stewed beef ribs with pickled garlic, ginger, pineapple, and tamarind sauce. Topped with peanuts. Served with sticky rice and sweet potato. Served with Jasmine rice.</p>
-              <p class="price">$22.95</p>
             </div>
           </div>
           <div class="food-item col-xs">
@@ -372,22 +303,22 @@
           </div>
           <div class="food-item col-xs">
             <div class="content no-image">
-              <h3>Peanut Sauce</h3>
-              <p>Homemade rich peanut sauce. Served with fried chicken, steamed broccoli, carrot, bok choy, string beans, and Jasmine rice. <span class="tags gluten">Gluten free</span><span class="tags peanuts">Contains peanuts</span><span class="tags spicy">Mild spicy</span></p>
-              <p class="price">$15.95</p>
+              <h3>Peanut Sauce Lover</h3>
+              <p>Our homemade rich peanut sauce and chili paste over your choice of Fried Chicken or Fried Tofu. Served with a side of steamed broccoli, carrot, bok choy, string beans. Served with Jasmine rice. <span class="tags gluten">Gluten free</span><span class="tags peanuts">Contains peanuts</span><span class="tags spicy">Mild spicy</span></p>
+              <p class="price">$16.95</p>
             </div>
           </div>
           <div class="food-item col-xs">
             <div class="content no-image">
               <h3>Tamarind Duck</h3>
-              <p>Boneless duck and Chinese broccoli with wok glazed tamarind sauce topped with fried red onion.  Served with yellow curry rice. Served with Jasmine rice. <span class="tags gluten">Gluten free</span><span class="tags peanuts">Contains peanuts</span><span class="tags spicy">Very spicy</span><span class="tags vegetarian">Vegetarian</span></p>
+              <p>Boneless duck and Chinese broccoli with wok glazed tamarind sauce topped with fried red onion. Served with yellow curry rice. Served with Jasmine rice. <span class="tags gluten">Gluten free</span><span class="tags peanuts">Contains peanuts</span><span class="tags spicy">Very spicy</span><span class="tags vegetarian">Vegetarian</span></p>
               <p class="price">$25.95</p>
             </div>
           </div>
         </section>
         <section tabindex="0" role="tabpanel" id="thai-noodle-tab" aria-labelledby="thai-noodle" hidden="">
           <h2>Thai Noodle</h2>
-          <p class="subheading"><span class="price">Add $1.95</span> for Fresh Broad Noodles<br><span class="price">Add $1.95</span> for Vermicelli Noodles<br><span class="price">Add $2.50</span> for Egg Noodles</p>
+          <p class="subheading"><span class="price">Add $1.95</span> for Fresh Broad Noodles<br><span class="price">Add $1.95</span> for Vermicelli Noodles<br><span class="price">Add $2.50</span> for Egg Noodles<br><span class="price">Add $3.50</span> for Udon Noodles</p>
           <hr>
           <div class="food-item col-xs">
             <div class="content no-image">
@@ -407,7 +338,7 @@
             <div class="content no-image">
               <h3>Duck Noodle Soup</h3>
               <p>Thai style duck noodle soup with rice noodles, bok choy, scallion, and cilantro. Garnished with crispy wonton.</p>
-              <p class="price">$16.95</p>
+              <p class="price">$18.95</p>
             </div>
           </div>
           <div class="food-item col-xs">
@@ -424,14 +355,7 @@
           <div class="food-item col-xs">
             <div class="content no-image">
               <h3>Duo Pork</h3>
-              <p>Crispy pork belly and roast marinated pork over rice. Served with sesame gravy.</p>
-              <p class="price">$16.95</p>
-            </div>
-          </div>
-          <div class="food-item col-xs">
-            <div class="content no-image">
-              <h3>Hot Pork Belly</h3>
-              <p>Fried pork belly mixed with red onion, fresh mint, fresh chilies, scallion, roasted rice powder, and cilantro.</p>
+              <p>Crispy pork belly and roast marinated pork over rice. Served with sesame gravy and clear soup on the side.</p>
               <p class="price">$16.95</p>
             </div>
           </div>
@@ -442,10 +366,17 @@
               <p class="price">$17.95</p>
             </div>
           </div>
+          <div class="food-item col-xs">
+            <div class="content no-image">
+              <h3>Duck over Rice</h3>
+              <p>Crispy 1/4 duck over Jasmine rice with sesame gravy sauce and ginger. Served with steamed bok choy and sweet vinaigrette black soy sauce on the side.</p>
+              <p class="price">$18.95</p>
+            </div>
+          </div>
         </section>
         <section tabindex="0" role="tabpanel" id="sauteed-noodle-tab" aria-labelledby="sauteed-noodle" hidden="">
           <h2>Sauteed Noodle</h2>
-          <p class="subheading"><span class="price">$14.95</span> for Chicken, Tofu, Vegetable<br><span class="price">$15.95</span> for Mock Duck<br><span class="price">$16.95</span> for Beef, Shrimp<br><span class="price">$18.95</span> for Fish Fillet<br><span class="price">$19.95</span> for Seafood<br><span class="price">$25.95</span> for Half Duck</p>
+          <p class="subheading"><span class="price">$14.95</span> for Chicken, Tofu, Vegetable<br><span class="price">$15.95</span> for Mock Duck<br><span class="price">$16.95</span> for Beef, Shrimp<br><span class="price">$18.95</span> for Cod Fillet, 1/4 Duck, Seafood<br><span class="price">$22.95</span> for Salmon Fillet<br><span class="price">$26.95</span> for 1/2 Duck</p>
           <hr>
           <div class="food-item col-xs">
             <div class="content no-image">
@@ -456,7 +387,7 @@
           <div class="food-item col-xs">
             <div class="content no-image">
               <h3>See Ew Noodle</h3>
-              <p>Stir-fried wide flat noodles, egg, and Chinese broccoli in sweet black soy sauce.</p>
+              <p>Stir-fried wide flat noodles, egg, and American broccoli in sweet black soy sauce.</p>
             </div>
           </div>
           <div class="food-item col-xs">
@@ -468,13 +399,13 @@
         </section>
         <section tabindex="0" role="tabpanel" id="fried-rice-tab" aria-labelledby="fried-rice" hidden="">
           <h2>Fried Rice</h2>
-          <p class="subheading"><span class="price">$14.95</span> for Chicken, Tofu, Vegetable<br><span class="price">$15.95</span> for Mock Duck<br><span class="price">$16.95</span> for Beef, Shrimp<br><span class="price">$18.95</span> for Fish Fillet<br><span class="price">$19.95</span> for Seafood<br><span class="price">$25.95</span> for Half Duck</p>
-          <p class="subheading"><span class="price">Add $1.95</span> for Brown Rice</p>
+          <p class="subheading"><span class="price">$14.95</span> for Chicken, Tofu, Vegetable<br><span class="price">$15.95</span> for Mock Duck<br><span class="price">$16.95</span> for Beef, Shrimp<br><span class="price">$18.95</span> for Cod Fillet, 1/4 Duck, Seafood<br><span class="price">$22.95</span> for Salmon Fillet<br><span class="price">$26.95</span> for 1/2 Duck</p>
+          <p class="subheading"><span class="price">Add $2.95</span> for Brown Rice</p>
           <hr>
           <div class="food-item col-xs">
             <div class="content no-image">
               <h3>Street Fried Rice</h3>
-              <p>Thai-style wok-fried jasmine rice with egg, tomato, scallion, onion, and Chinese broccoli.</p>
+              <p>Thai-style wok-fried jasmine rice with egg, tomato, scallion, onion, and American broccoli.</p>
             </div>
           </div>
           <div class="food-item col-xs">
@@ -489,11 +420,23 @@
               <p>The slight sweetness of fresh pineapple in wok-fried jasmine rice with egg, onion, scallion, raisins, and cashew nuts.</p>
             </div>
           </div>
+          <div class="food-item col-xs">
+            <div class="content no-image">
+              <h3>Sriracha Fried Rice</h3>
+              <p>Wok-fried jasmine rice with famous spicy Sriracha Sauce, egg, tomatoes, onion, scallions, and broccoli.</p>
+            </div>
+          </div>
+          <div class="food-item col-xs">
+            <div class="content no-image">
+              <h3>Tom Yum Fried Rice</h3>
+              <p>Wok-fried jasmine rice with spicy Tom Yum chili paste, egg, onion, tomatoes, scallions, lime leaves and mushrooms.</p>
+            </div>
+          </div>
         </section>
         <section tabindex="0" role="tabpanel" id="sauteed-dish-tab" aria-labelledby="sauteed-dish" hidden="">
           <h2>Sauteed Dish</h2>
           <p class="subheading">Served with Jasmine Rice</p>
-          <p class="subheading"><span class="price">$14.95</span> for Chicken, Tofu, Vegetable<br><span class="price">$15.95</span> for Mock Duck<br><span class="price">$16.95</span> for Beef, Shrimp<br><span class="price">$18.95</span> for Fish Fillet<br><span class="price">$19.95</span> for Seafood<br><span class="price">$25.95</span> for Half Duck<br><span class="price">$30.95</span> for Whole Fish</p>
+          <p class="subheading"><span class="price">$14.95</span> for Chicken, Tofu, Vegetable<br><span class="price">$15.95</span> for Mock Duck<br><span class="price">$16.95</span> for Beef, Shrimp<br><span class="price">$18.95</span> for Cod Fillet, 1/4 Duck, Seafood<br><span class="price">$22.95</span> for Salmon Fillet<br><span class="price">$26.95</span> for 1/2 Duck</p>
           <p class="subheading"><span class="price">Add $1.95</span> for Brown Rice</p>
           <hr>
           <div class="food-item col-xs">
@@ -504,20 +447,8 @@
           </div>
           <div class="food-item col-xs">
             <div class="content no-image">
-              <h3>Signature Brown</h3>
-              <p>Stir-fried carrot, white mushrooms, broccoli, and bok choy with our Chef’s signature brown sauce.</p>
-            </div>
-          </div>
-          <div class="food-item col-xs">
-            <div class="content no-image">
-              <h3>Hot Pepper Garlic Sauce</h3>
-              <p>Stir-fried garlic sauce with black pepper, onion, scallion, bell pepper and fresh green peppercorns. <span class="tags spicy">Mild spicy</span></p>
-            </div>
-          </div>
-          <div class="food-item col-xs">
-            <div class="content no-image">
-              <h3>Sweet & Sour Sauce</h3>
-              <p>A combination of sourness from pineapple and sweetness from our Chef’s sauce. Stir-fried cashew nuts, onion, scallion, pineapple, cucumber, and bell pepper.</p>
+              <h3>Signature Garlic Sauce</h3>
+              <p>Stir-fried carrot, white mushrooms, American broccoli, and bok choy with our Chef’s signature brown sauce. Topped with fried garlic.</p>
             </div>
           </div>
           <div class="food-item col-xs">
@@ -536,7 +467,7 @@
         <section tabindex="0" role="tabpanel" id="curry-tab" aria-labelledby="curry" hidden="">
           <h2>Curry</h2>
           <p class="subheading">Served with Jasmine Rice</p>
-          <p class="subheading"><span class="price">$14.95</span> for Chicken, Tofu, Vegetable<br><span class="price">$15.95</span> for Mock Duck<br><span class="price">$16.95</span> for Beef, Shrimp<br><span class="price">$18.95</span> for Fish Fillet<br><span class="price">$19.95</span> for Seafood<br><span class="price">$25.95</span> for Half Duck<br><span class="price">$30.95</span> for Whole Fish</p>
+          <p class="subheading"><span class="price">$14.95</span> for Chicken, Tofu, Vegetable<br><span class="price">$15.95</span> for Mock Duck<br><span class="price">$16.95</span> for Beef, Shrimp<br><span class="price">$18.95</span> for Cod Fillet, 1/4 Duck, Seafood<br><span class="price">$22.95</span> for Salmon Fillet<br><span class="price">$26.95</span> for 1/2 Duck</p>
           <p class="subheading"><span class="price">Add $1.95</span> for Brown Rice</p>
           <hr>
           <div class="food-item col-xs">
@@ -594,18 +525,12 @@
           <div class="food-item col-xs">
             <div class="content no-image">
               <h3>Sweet Coconut Rice</h3>
-              <p class="price">$3.00</p>
+              <p class="price">$4.00</p>
             </div>
           </div>
           <div class="food-item col-xs">
             <div class="content no-image">
               <h3>Steamed Rice Noodles</h3>
-              <p class="price">$2.00</p>
-            </div>
-          </div>
-          <div class="food-item col-xs">
-            <div class="content no-image">
-              <h3>Ginger Dressing</h3>
               <p class="price">$2.00</p>
             </div>
           </div>
@@ -618,7 +543,7 @@
           <div class="food-item col-xs">
             <div class="content no-image">
               <h3>Steamed Mixed Vegetables</h3>
-              <p class="price">$7.95</p>
+              <p class="price">$8.00</p>
             </div>
           </div>
           <div class="food-item col-xs">
@@ -646,19 +571,19 @@
           <div class="food-item col-xs">
             <div class="content no-image">
               <h3>Thai Iced Tea</h3>
-              <p class="price">$3.95</p>
+              <p class="price">$4.50</p>
             </div>
           </div>
           <div class="food-item col-xs">
             <div class="content no-image">
               <h3>Lychee Juice</h3>
-              <p class="price">$4.00</p>
+              <p class="price">$4.50</p>
             </div>
           </div>
           <div class="food-item col-xs">
             <div class="content no-image">
               <h3>Mango Juice</h3>
-              <p class="price">$4.00</p>
+              <p class="price">$4.50</p>
             </div>
           </div>
           <div class="food-item col-xs">
@@ -671,7 +596,7 @@
             <div class="content no-image">
               <h3>Soda</h3>
               <p>Coke, Diet Coke, Seltzer, Sprite, Ginger Ale.</p>
-              <p class="price">$2.00</p>
+              <p class="price">$2.50</p>
             </div>
           </div>
           <div class="food-item col-xs">
@@ -690,13 +615,7 @@
           <div class="food-item col-xs">
             <div class="content no-image">
               <h3>Bottled Water</h3>
-              <p class="price">$2.00</p>
-            </div>
-          </div>
-          <div class="food-item col-xs">
-            <div class="content no-image">
-              <h3>Ginger Beer</h3>
-              <p class="price">$4.00</p>
+              <p class="price">$2.50</p>
             </div>
           </div>
         </section>
@@ -718,28 +637,22 @@
           </div>
           <div class="food-item col-xs">
             <div class="content no-image">
-              <h3>Cheesecake</h3>
-              <p class="price">$7.95</p>
-            </div>
-          </div>
-          <div class="food-item col-xs">
-            <div class="content no-image">
               <h3>Green Tea Ice Cream</h3>
-              <p class="price">$6.95</p>
+              <p class="price">$5.95</p>
             </div>
           </div>
           <div class="food-item col-xs">
             <div class="content no-image">
               <h3>Coconut Ice Cream</h3>
-              <p class="price">$6.95</p>
+              <p class="price">$5.95</p>
             </div>
           </div>
         </section>
         <section tabindex="0" role="tabpanel" id="lunch-tab" aria-labelledby="lunch" hidden="">
           <h2>Lunch Special</h2>
           <p class="subheading">Available Monday to Friday at 11:30 AM to 3:30 PM</p>
-          <p class="subheading">Choice of Appetizer:<br>Spring Rolls, Thai Dumplings, Vegetables & Tofu Soup, or Green Salad with Ginger Dressing.</p>
-          <p class="subheading">Choice of Entrée:<br><span class="price">$11.95</span> for Chicken, Tofu, Vegetable<br><span class="price">$12.95</span> for Mock Duck<br><span class="price">$13.95</span> for Beef, Shrimp</p>
+          <p class="subheading">Choice of Appetizer:<br>Spring Rolls, Thai Dumplings, Vegetables & Tofu Soup, or Green Salad with Peanut Dressing.</p>
+          <p class="subheading">Choice of Entrée:<br><span class="price">$12.95</span> for Chicken, Tofu, Vegetable<br><span class="price">$13.95</span> for Mock Duck<br><span class="price">$14.95</span> for Beef, Shrimp</p>
           <hr>
           <div class="food-item col-xs">
             <div class="content no-image">
@@ -779,8 +692,8 @@
           </div>
           <div class="food-item col-xs">
             <div class="content no-image">
-              <h3>Signature Brown Lunch</h3>
-              <p>Stir-fried carrot, white mushrooms, broccoli, and bok choy with our Chef’s signature brown sauce. Served with Jasmine rice.</p>
+              <h3>Signature Garlic Sauce Lunch</h3>
+              <p>Stir-fried carrot, white mushrooms, American broccoli, and bok choy with our Chef’s signature brown sauce. Served with Jasmine rice.</p>
             </div>
           </div>
           <div class="food-item col-xs">
@@ -882,6 +795,38 @@
             <div class="content no-image">
               <h3>Roadside Noodle & Fried Pork Potstickers</h3>
               <p class="price">$21.95</p>
+            </div>
+          </div>
+        </section>
+        <section tabindex="0" role="tabpanel" id="marwin-signatures-tab" aria-labelledby="marwin-signatures" hidden="">
+          <h2>Marwin Signatures</h2>
+          <hr>
+          <div class="food-item col-xs">
+            <div class="content no-image">
+              <h3>Marwin Fried Chicken Sandwich</h3>
+              <p>Marinated fried chicken sandwich with our Chef's homemade signature sauce, spicy mayonnaise, mixed green salad and tomato on toasted bread.</p>
+              <p class="price">$12.95</p>
+            </div>
+          </div>
+          <div class="food-item col-xs">
+            <div class="content no-image">
+              <h3>Marwin Thai Pork Chops</h3>
+              <p>Thai-style grilled pork chops marinated in traditional herbs. Glazed with our Chef's mild Thai chili paste (contains shrimp). Served with steamed mixed vegetables and Jasmine rice.</p>
+              <p class="price">$20.95</p>
+            </div>
+          </div>
+          <div class="food-item col-xs">
+            <div class="content no-image">
+              <h3>Marwin Seafood Udon Drunken Noodles</h3>
+              <p>Spicy stir-fried Japanese Udon noodles in basil sauce with mixed seafood, fresh chili, egg, string beans, Thai chili paste, bell pepper, carrot, and onion.</p>
+              <p class="price">$19.95</p>
+            </div>
+          </div>
+          <div class="food-item col-xs">
+            <div class="content no-image">
+              <h3>3 Flavors Fish</h3>
+              <p>Steamed Cod fillets seasoned with 3 flavors dressing, Thai herbs and fresh chili.</p>
+              <p class="price">$22.95</p>
             </div>
           </div>
         </section>
