@@ -196,6 +196,21 @@ button {
     /*margin: 5% auto;*/
     display: inline-block;
 }
+a.button {
+	width: 150px;
+	padding: 15px;
+	background: #090924;
+	color: #fff;
+	margin: 2%;
+	display: inline-block;
+	text-align: center;
+	border: none;
+	border-radius: 5px;
+	opacity: 1;
+	transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
 a.modal-button { 
 	width: 150px;
 	padding: 15px;
@@ -215,21 +230,10 @@ a.modal-button {
     display: block;
 }
 a.map-button { 
-	width: 150px;
-	padding: 15px;
-	background: #090924;
-	color: #fff;
 	margin: 5% 0;
 	display: block;
-	text-align: center;
-	border: none;
-	border-radius: 5px;
-	opacity: 1;
-	transition: opacity .25s ease-in-out;
-    -moz-transition: opacity .25s ease-in-out;
-    -webkit-transition: opacity .25s ease-in-out;
 }
-button:hover, a.map-button:hover { opacity: 0.8; }
+button:hover, a.button:hover, a.map-button:hover { opacity: 0.8; }
 .modal a.close-modal { display: none !important; }
 .modal img { display: block; max-width: 360px; width: 100%; margin: auto; }
 .modal p { color: #000; text-align: center; }
@@ -448,4 +452,5 @@ ul.footer-links li { display: inline-block; padding: 0 1em; }
 	i.fa-mobile-alt:after { content: 'Call'; }
 	i.fa-wine-glass-alt:after { content: 'Drink'; }
 	i.fa-shopping-bag:after { content: 'Order'; }
+	.modal img { width: 75%; }
 }
